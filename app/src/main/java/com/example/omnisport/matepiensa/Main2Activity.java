@@ -6,8 +6,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
+    public void mensaje (View v){
+        Toast toast = Toast.makeText(this, "correcto", Toast.LENGTH_SHORT);
+        toast.show() ;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,4 +59,5 @@ public class Main2Activity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

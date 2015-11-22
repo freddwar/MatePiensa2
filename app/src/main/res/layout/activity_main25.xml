@@ -7,7 +7,8 @@
     tools:context="com.example.omnisport.matepiensa.Main25Activity"
     android:background="@drawable/fondo">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/nivel2"
         android:id="@+id/textView" />

@@ -21,7 +21,8 @@
         android:id="@+id/button2"
         android:background="@drawable/n4"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="mensaje" />
 
     <Button
         android:layout_width="100dp"
@@ -39,4 +40,5 @@
         android:background="@drawable/n3"
         android:layout_below="@+id/button2"
         android:layout_alignStart="@+id/button2" />
+
 </RelativeLayout>
