@@ -31,7 +31,8 @@
         android:layout_below="@+id/button15"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:background="@drawable/n8" />
+        android:background="@drawable/n8"
+        android:onClick="mensaje" />
 
     <Button
         android:layout_width="100dp"
