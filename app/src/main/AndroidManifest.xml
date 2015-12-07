@@ -52,6 +52,26 @@
             android:name=".Main29Activity"
             android:label="@string/title_activity_main29" >
         </activity>
+        <activity
+            android:name=".Main210Activity"
+            android:label="@string/title_activity_main210" >
+        </activity>
+        <activity
+            android:name=".Main211Activity"
+            android:label="@string/title_activity_main211" >
+        </activity>
+        <activity
+            android:name=".Main212Activity"
+            android:label="@string/title_activity_main212" >
+        </activity>
+        <activity
+            android:name=".Main213Activity"
+            android:label="@string/title_activity_main213" >
+        </activity>
+        <activity
+            android:name=".Main214Activity"
+            android:label="@string/title_activity_main214" >
+        </activity>
     </application>
 
 </manifest>

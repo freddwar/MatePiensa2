@@ -6,6 +6,14 @@
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main214Activity"/>
+      <point      
+        x = "-44"      
+        y = "3220"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.omnisport.matepiensa.Main23Activity"/>
       <point      
         x = "5572"      
@@ -22,26 +30,10 @@
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
-        className = "com.example.omnisport.matepiensa.Main27Activity"/>
-      <point      
-        x = "6840"      
-        y = "1480"/>
-    </statePointEntry>
-    <statePointEntry>
-      <state      
-        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.omnisport.matepiensa.MainActivity"/>
       <point      
         x = "1768"      
         y = "100"/>
-    </statePointEntry>
-    <statePointEntry>
-      <state      
-        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
-        className = "com.example.omnisport.matepiensa.Main28Activity"/>
-      <point      
-        x = "5576"      
-        y = "1480"/>
     </statePointEntry>
     <statePointEntry>
       <state      
@@ -56,8 +48,64 @@
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.omnisport.matepiensa.Main25Activity"/>
       <point      
-        x = "1768"      
+        x = "1432"      
+        y = "1608"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main213Activity"/>
+      <point      
+        x = "500"      
+        y = "5620"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main26Activity"/>
+      <point      
+        x = "2884"      
+        y = "1816"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main27Activity"/>
+      <point      
+        x = "6840"      
         y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main28Activity"/>
+      <point      
+        x = "5564"      
+        y = "1288"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main210Activity"/>
+      <point      
+        x = "550"      
+        y = "5670"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main211Activity"/>
+      <point      
+        x = "600"      
+        y = "5720"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.omnisport.matepiensa.Main212Activity"/>
+      <point      
+        x = "650"      
+        y = "5770"/>
     </statePointEntry>
     <statePointEntry>
       <state      
@@ -70,18 +118,10 @@
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
-        className = "com.example.omnisport.matepiensa.Main26Activity"/>
-      <point      
-        x = "3036"      
-        y = "1480"/>
-    </statePointEntry>
-    <statePointEntry>
-      <state      
-        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.omnisport.matepiensa.Main29Activity"/>
       <point      
-        x = "4304"      
-        y = "1480"/>
+        x = "4392"      
+        y = "1504"/>
     </statePointEntry>
   </locations>
 </navigationModel>

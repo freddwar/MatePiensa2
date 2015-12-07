@@ -13,12 +13,7 @@ public class Main24Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main24);
-        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Main24Activity.this, MainActivity.class));
-            }
-        });
+
         findViewById(R.id.button9).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,9 +23,16 @@ public class Main24Activity extends AppCompatActivity {
         findViewById(R.id.button14).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Main24Activity.this, MainActivity.class));
+                startActivity(new Intent(Main24Activity.this, Main2Activity.class));
             }
         });
+        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Main24Activity.this, Main2Activity.class));
+            }
+        });
+
     }
 
     @Override

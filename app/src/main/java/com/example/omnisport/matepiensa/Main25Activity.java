@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 public class Main25Activity extends AppCompatActivity {
 
@@ -17,6 +18,19 @@ public class Main25Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Main25Activity.this, Main26Activity.class));
+            }
+        });
+        final Button boton_salida = (Button)findViewById(R.id.button28);
+        boton_salida.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View v) {
+                finish();
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+
             }
         });
     }

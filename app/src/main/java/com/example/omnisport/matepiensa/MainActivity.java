@@ -1,5 +1,6 @@
 package com.example.omnisport.matepiensa;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,9 +24,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Main2Activity.class));
             }
         });
-        reproductor = MediaPlayer.create(this, R.raw.cal );
+        reproductor = MediaPlayer.create(this, R.raw.app );
         reproductor.start() ;
+        final Button boton_salida = (Button)findViewById(R.id.button27);
+        boton_salida.setOnClickListener(new View.OnClickListener() {
+            @Override
 
+            public void onClick(View v) {
+                finish();
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+
+            }
+        });
     }
 
     @Override
@@ -63,10 +77,5 @@ public class MainActivity extends AppCompatActivity {
         super.onResume() ;
         reproductor.start() ;
     }
-    @Override
-    protected void onPause()
-    {
-        super.onPause();
-        reproductor.start();
-    }
+
 }

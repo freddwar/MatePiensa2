@@ -26,6 +26,12 @@ public class Main27Activity extends AppCompatActivity {
                 startActivity(new Intent(Main27Activity.this, Main25Activity.class));
             }
         });
+        findViewById(R.id.button16).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Main27Activity.this, Main210Activity.class));
+            }
+        });
     }
 
     @Override

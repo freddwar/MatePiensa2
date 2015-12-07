@@ -9,10 +9,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
-    public void mensaje (View v){
-        Toast toast = Toast.makeText(this, "correcto", Toast.LENGTH_SHORT);
-        toast.show() ;
-    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,18 +21,7 @@ public class Main2Activity extends AppCompatActivity {
                 startActivity(new Intent(Main2Activity.this, Main22Activity.class));
             }
         });
-        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Main2Activity.this, MainActivity.class));
-            }
-        });
-        findViewById(R.id.button10).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Main2Activity.this, MainActivity.class));
-            }
-        });
+
     }
 
     @Override

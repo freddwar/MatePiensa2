@@ -13,24 +13,25 @@ public class Main22Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main22);
+               findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View v) {
+                       startActivity(new Intent(Main22Activity.this, Main23Activity.class));
+                   }
+               });
         findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Main22Activity.this, MainActivity.class));
-            }
-        });
-        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Main22Activity.this, Main23Activity.class));
+                startActivity(new Intent(Main22Activity.this, Main2Activity.class));
             }
         });
         findViewById(R.id.button12).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Main22Activity.this, MainActivity.class));
+                startActivity(new Intent(Main22Activity.this, Main2Activity.class));
             }
         });
+
     }
 
     @Override
